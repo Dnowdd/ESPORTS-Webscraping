@@ -1,8 +1,8 @@
 <p align="center">
-  <img width="200" src="" alt="logo">
+  <img width="200" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/resources/icon.ico" alt="logo">
   <h1 align="center" style="margin: 0 auto 0 auto;">ESPORTS Webscraping</h1>
   <h5 align="center" style="margin: 0 auto 0 auto;">Acompanhe o frenesi dos ESports em tempo real!</h5>
-  </p>
+</p>
 
   <p align="center">
     <img src="https://img.shields.io/github/last-commit/Dnowdd/ESPORTS-Webscraping">
@@ -19,7 +19,9 @@ ___
 
 O ESPORTS Webscraping é um aplicativo Python com interface gráfica que utiliza webscraping para capturar informações de jogos de diversos campeonatos, como LoL, CS:GO, CS 2, Free Fire, Valorant, entre outros, diretamente do site [Mais Esports](https://maisesports.com.br).
 
-<img width="500" alt="Principal Image" src="">
+<p align="center">
+  <img width="800" alt="Principal Image" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/prints/principal.png">
+</p>
 
 ## ⚙️ Instalando as dependências
 
@@ -38,7 +40,7 @@ E assim, ele baixará as seguintes dependências:
 Você pode pular a etapa anterior (Instalando as dependências) caso queira apenas executar o código em seu computador.
 Assim que baixar os arquivos é importante que você armazene a pasta raiz em algum local de sua máquina, logo em seguida você pode utilizar o Atalho que está na pasta principal:
   - `ESPORTS Webscraping`
-  - <img width="100" alt="App" src="">
+  - <img width="50" alt="App" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/prints/icon.png">
 E pronto, tudo deve funcionar perfeitamente!
 
 <b>OBS: O executável só funciona para sistemas Windows!</b>
@@ -61,9 +63,11 @@ Uma vez que os dados são obtidos, o aplicativo exibe as informações de forma 
 
 Veja imagens da execução do aplicativo:
 
-### Página de Registro
+### Interface - Português
+<img width="500" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/prints/brazil-ui.png">
 
-<img width="467" alt="Example 1" src="">
+### Interface - Inglês
+<img width="500" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/prints/usa-ui.png">
 
 ## 🖥️ GUI & Layout
 
@@ -72,3 +76,12 @@ Todo o design foi feito utilizando a plataforma [Figma](https://figma.com) e imp
 ## 📧 Contate-me
 
 Caso tenha alguma dúvida podemos entrar em contato pelo meu e-mail: david@proofy.com.br
+
+
+
+
+---
+
+<p align="center">
+  Feito com ❤️ David Aquino.
+</p>
