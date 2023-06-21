@@ -1,7 +1,7 @@
 <p align="center">
   <img width="200" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/resources/icon.ico" alt="logo">
   <h1 align="center" style="margin: 0 auto 0 auto;">ESPORTS Webscraping</h1>
-  <h5 align="center" style="margin: 0 auto 0 auto;">Acompanhe o frenesi dos ESports em tempo real!</h5>
+  <h5 align="center" style="margin: 0 auto 0 auto;">Follow the frenzy of ESports in real time!</h5>
 </p>
 
   <p align="center">
@@ -14,68 +14,74 @@
   <br>
 
 ___
+## 🌍 Translation
 
-## 🌟 Introdução
+Read this document translated into the following languages:
 
-O ESPORTS Webscraping é um aplicativo Python com interface gráfica que utiliza webscraping para capturar informações de jogos de diversos campeonatos, como LoL, CS:GO, CS 2, Free Fire, Valorant, entre outros, diretamente do site [Mais Esports](https://maisesports.com.br).
+- [Portuguese (Brazil)](https://github.com/Dnowdd/ESPORTS-Webscraping/blob/main/portuguese-README.md)
+- [English](https://github.com/Dnowdd/ESPORTS-Webscraping/blob/main/README.md)
+
+## 🌟 Introduction
+
+ESPORTS Webscraping is a Python application with a graphical interface that uses webscraping to capture information about games from various championships, such as LoL, CS:GO, CS 2, Free Fire, Valorant, and more, directly from the website [Mais Esports](https://maisesports.com.br).
 
 <p align="center">
   <img width="800" alt="Principal Image" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/prints/principal.png">
 </p>
 
-## ⚙️ Instalando as dependências
+## ⚙️ Installing Dependencies
 
-Para que você possa instalar as dependências necessárias para o funcionamento do projeto é necessário que você tenha o python3 instalado em sua máquina.
-Logo após a instalação você pode ir até a raiz do projeto e executar o comando:
+To install the necessary dependencies for the project to work, you need to have Python 3 installed on your machine.
+After the installation, you can go to the project's root directory and execute the following command:
   - `pip install ./requirements.txt`
 
-E assim, ele baixará as seguintes dependências:
+This will download the following dependencies:
   - ```
     beautifulsoup4==4.12.2
     requests==2.25.1
     ```
 
-## 🚀 Executável
+## 🚀 Executable
 
-Você pode pular a etapa anterior (Instalando as dependências) caso queira apenas executar o código em seu computador.
-Assim que baixar os arquivos é importante que você armazene a pasta raiz em algum local de sua máquina, logo em seguida você pode utilizar o Atalho que está na pasta principal:
+If you only want to run the code on your computer, you can skip the previous step (Installing Dependencies).
+Once you have downloaded the files, it is important to store the root folder somewhere on your machine. Then, you can use the shortcut located in the main folder:
   - `ESPORTS Webscraping`
   - <img width="50" alt="App" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/prints/icon.png">
-E pronto, tudo deve funcionar perfeitamente!
+And that's it, everything should work perfectly!
 
-<b>OBS: O executável só funciona para sistemas Windows!</b>
+<b>NOTE: The executable only works on Windows systems!</b>
 
-## ☕️ Ajude-me doando um café
+## ☕️ Buy Me a Coffee
 
-Se você gostou do meu trabalho e deseja me apoiar, ficarei imensamente grato se considerar me comprar um café. Sua generosidade será valorizada e me ajudará a continuar desenvolvendo projetos incríveis. Obrigado pelo seu apoio!
+If you liked my work and would like to support me, I would be immensely grateful if you considered buying me a coffee. Your generosity will be appreciated and will help me continue developing amazing projects. Thank you for your support!
 
 <a href="https://www.buymeacoffee.com/dnowdd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" width="217px" ></a>
 
-## 🤔 Como funciona
+## 🤔 How It Works
 
-O ESPORTS Webscraping é um projeto que consiste em um aplicativo Python com interface gráfica desenvolvida usando a biblioteca Tkinter. O objetivo principal do projeto é obter informações atualizadas sobre jogos de campeonatos de eSports, como League of Legends (LoL), Counter-Strike: Global Offensive (CSGO), Counter-Strike 2 (CS 2), Free Fire, Valorant, entre outros, a partir do site [Mais Esports](https://maisesports.com.br).
+ESPORTS Webscraping is a project that consists of a Python application with a graphical interface developed using the Tkinter library. The main objective of the project is to obtain up-to-date information about eSports championship games, such as League of Legends (LoL), Counter-Strike: Global Offensive (CSGO), Counter-Strike 2 (CS 2), Free Fire, Valorant, and more, from the [Mais Esports](https://maisesports.com.br) website.
 
-O aplicativo utiliza a técnica de webscraping, empregando a biblioteca BeautifulSoup, para realizar a extração e análise dos dados disponíveis nas páginas web relevantes. Através do processo de webscraping, o ESPORTS Webscraping é capaz de coletar informações detalhadas sobre os jogos de campeonatos que já ocorreram e também sobre aqueles que ainda estão por vir.
+The application uses webscraping technique, employing the BeautifulSoup library, to perform data extraction and analysis from the relevant web pages. Through the process of webscraping, ESPORTS Webscraping is able to collect detailed information about games from past championships and also about upcoming matches.
 
-Uma vez que os dados são obtidos, o aplicativo exibe as informações de forma organizada e amigável ao usuário, permitindo que ele acompanhe facilmente os resultados dos jogos, bem como as partidas futuras.
+Once the data is obtained, the application displays the information in an organized and user-friendly manner, allowing users to easily track game results as well as future matches.
 
-## 📸 Imagens do projeto
+## 📸 Project Screenshots
 
-Veja imagens da execução do aplicativo:
+Check out some screenshots of the application:
 
-### Interface - Português
+### Interface - Portuguese
 <img width="500" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/prints/brazil-ui.png">
 
-### Interface - Inglês
+### Interface - English
 <img width="500" src="https://raw.githubusercontent.com/Dnowdd/ESPORTS-Webscraping/main/assets/prints/usa-ui.png">
 
 ## 🖥️ GUI & Layout
 
-Todo o design foi feito utilizando a plataforma [Figma](https://figma.com) e importado para o python utilizando o [TKINTER DESIGNER](https://github.com/ParthJadhav/Tkinter-Designer).
+The entire design was created using the [Figma](https://figma.com) platform and imported into Python using [TKINTER DESIGNER](https://github.com/ParthJadhav/Tkinter-Designer).
 
-## 📧 Contate-me
+## 📧 Contact Me
 
-Caso tenha alguma dúvida podemos entrar em contato pelo meu e-mail: david@proofy.com.br
+If you have any questions, we can get in touch via email: david@proofy.com.br
 
 
 
@@ -83,5 +89,5 @@ Caso tenha alguma dúvida podemos entrar em contato pelo meu e-mail: david@proof
 ---
 
 <p align="center">
-  Feito com ❤️ David Aquino.
+  Made with ❤️ by David Aquino.
 </p>
