@@ -59,36 +59,36 @@ def convert_to_brasilia_time(date_string):
         return ''
 
 def nextMatchs(i, multi):
-    lastMatchs = pageSoup.find_all('div', class_='sc-ca927bca-1')
+    lastMatchs = pageSoup.find_all('div', class_='sc-973586-1')
     lastMatchs = lastMatchs[1]
     lastMatchsHtml = lastMatchs.prettify()
 
     lastMatchsSoup = BeautifulSoup(lastMatchsHtml, 'html.parser')
-    matchs = lastMatchsSoup.find_all('a', class_='sc-ca927bca-7')
+    matchs = lastMatchsSoup.find_all('a', class_='sc-973586-7')
 
     def getMatchInfos(match):
         matchSoup = BeautifulSoup(match, 'html.parser')
-        matchName = matchSoup.find('div', class_='sc-ca927bca-13')
-        matchTeams = matchSoup.find_all('div', class_='sc-ca927bca-12')
+        matchName = matchSoup.find('div', class_='sc-973586-13')
+        matchTeams = matchSoup.find_all('div', class_='sc-973586-12')
         matchTeamsImage = matchSoup.find_all('img')
 
         matchTeamHomeImage = matchTeamsImage[2]['src']
         matchTeamAwayImage = matchTeamsImage[5]['src']
 
-        if matchSoup.find('a', class_='iDQlZa'):
+        if matchSoup.find('a', class_='jOmIEC'):
             game = 'League of Legends'
-        elif matchSoup.find('a', class_='FmRPv'):
+        elif matchSoup.find('a', class_='gDATmb'):
             game = 'Valorant'
         else:
             game = 'Undefined'
 
-        if matchSoup.find('a', 'sc-ca927bca-15'):
+        if matchSoup.find('a', 'sc-973586-14'):
             live = 1
         else:
             live = 0
 
         if live == 0:
-            matchDate = matchSoup.find('div', 'sc-ca927bca-14').text.strip()
+            matchDate = matchSoup.find('div', 'sc-973586-14').text.strip()
         else:
             matchDate = 0
 
@@ -111,27 +111,27 @@ def nextMatchs(i, multi):
     return getMatchInfos(matchs[i].prettify())[multi]
 
 def lastMatchs(i, multi):
-    lastMatchs = pageSoup.find_all('div', class_='sc-ca927bca-1')
+    lastMatchs = pageSoup.find_all('div', class_='sc-973586-1')
     lastMatchs = lastMatchs[2]
     lastMatchsHtml = lastMatchs.prettify()
 
     lastMatchsSoup = BeautifulSoup(lastMatchsHtml, 'html.parser')
-    matchs = lastMatchsSoup.find_all('a', class_='sc-ca927bca-7')
+    matchs = lastMatchsSoup.find_all('a', class_='sc-973586-7')
 
     def getMatchInfos(match):
         matchSoup = BeautifulSoup(match, 'html.parser')
-        matchName = matchSoup.find('div', class_='sc-ca927bca-13')
-        matchDate = matchSoup.find('div', class_='sc-ca927bca-14')
-        matchTeams = matchSoup.find_all('div', class_='sc-ca927bca-12')
-        matchScore = matchSoup.find_all('div', class_='sc-ca927bca-21')
+        matchName = matchSoup.find('div', class_='sc-973586-13')
+        matchDate = matchSoup.find('div', class_='sc-973586-14')
+        matchTeams = matchSoup.find_all('div', class_='sc-973586-12')
+        matchScore = matchSoup.find_all('div', class_='sc-973586-21')
         matchTeamsImage = matchSoup.find_all('img')
 
         matchTeamHomeImage = matchTeamsImage[2]['src']
         matchTeamAwayImage = matchTeamsImage[5]['src']
 
-        if matchSoup.find('a', class_='iDQlZa'):
+        if matchSoup.find('a', class_='jOmIEC'):
             game = 'League of Legends'
-        elif matchSoup.find('a', class_='FmRPv'):
+        elif matchSoup.find('a', class_='gDATmb'):
             game = 'Valorant'
         else:
             game = 'Undefined'
